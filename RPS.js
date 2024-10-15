@@ -31,9 +31,9 @@ Looping Through Choices:
     The code uses forEach to iterate over each button element stored in possibleChoices, which represents the player's possible choices (Rock, Paper, Scissors).
 Adding Event Listeners: 
     For each button (or choice), an event listener is added that listens for a 'click' event. This means that whenever a player clicks one of the buttons, the following occurs:
-Capturing Player Choice: 
-    When a button is clicked, the event object (e) is used to get the id of the clicked button, which corresponds to the player's choice (e.g., 'Rock', 'Paper', or 'Scissors'). 
-    This value is assigned to the variable playerChoice.
+        Capturing Player Choice: 
+            When a button is clicked, the event object (e) is used to get the id of the clicked button, which corresponds to the player's choice (e.g., 'Rock', 'Paper', or 'Scissors'). 
+            This value is assigned to the variable playerChoice.
 Updating Display: 
     The player's choice is then displayed on the webpage by updating the innerHTML of the playerChoiceDisplay element.
 Generating Computer Choice: 

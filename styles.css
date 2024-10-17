@@ -1,0 +1,23 @@
+/* Ensure the body takes the full viewport height and centers content */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center;
+    background-color: #282c34; /* Dark background for consistency */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

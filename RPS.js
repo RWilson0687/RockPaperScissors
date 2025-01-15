@@ -100,3 +100,8 @@ The function getResult determines the outcome of the game based on the choices m
 Summary:
     This function evaluates the player's and computer's choices, determines the outcome (draw, win, or lose), and updates the display accordingly.
 */
+
+//Function to refresh the page
+function refreshPage() {
+    location.reload(); // Reloads the page
+}

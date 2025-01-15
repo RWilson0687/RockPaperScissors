@@ -5,16 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
     <link rel="stylesheet" type="text/css" href="styles.css"><link>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
     <body>
 
-        <h2>Computer Choice:<span id="computer-choice"></span></h2>
-        <h2>Player Choice:<span id="player-choice"></span></h2>
-        <h2>Result:<span id="result"></span></h2>
+        <div class="page-title">
+            <!-- Title Section -->
+            <h1>Memory Game</h1>
+            <h3>Score: <span id="result"></span></h3>
+        </div>
+    
+        <div class="wrapper">
+            <div class="game-description">
+                <!-- Game Description Section -->
+                    <h3>Game Description</h3>
+                    <p>Rock, Paper, Scissors is a simple game where two players simultaneously choose one of three options: rock, paper, or scissors. The winner is determined by the rules: rock beats scissors, scissors beat paper, and paper beats rock, with ties occurring if both players choose the same option.</p>
+            </div>
+    
+            <div class="game-container">
+                <!-- Game Area -->
+                <h2>Computer Choice:<span id="computer-choice"></span></h2>
+                <h2>Player Choice:<span id="player-choice"></span></h2>
+                <h2>Result:<span id="result"></span></h2>
 
-        <button id= "Rock">Rock</button>
-        <button id= "Paper">Paper</button>
-        <button id= "Scissors">Scissors</button>
+                <div id="gameButtons">
+                    <button id= "Rock">Rock</button>
+                    <button id= "Paper">Paper</button>
+                    <button id= "Scissors">Scissors</button>
+                </div>
+            </div>   
+
+            <div id="navigationPane">
+                <!-- Navigation Pane -->
+                    <h3>
+                        <span style="margin-right: 5px;">🎮</span>Other Games<span style="margin-right: 5px;">🎮</span>
+                    </h3>
+                    <ul class="navigationPane">
+                        <li><a href="https://rwilson0687.github.io/Breakout/">Breakout</a></li>
+                        <li><a href="https://rwilson0687.github.io/ConnectFour/">Connect Four</a></li>
+                        <li><a href="https://rwilson0687.github.io/Frogger/">Frogger</a></li>
+                        <li><a href="https://rwilson0687.github.io/MemoryGame/">Memory Game</a></li>
+                        <li><a href="https://rwilson0687.github.io/RockPaperScissors/">Rock, Paper, Scissors</a></li>
+                        <li><a href="https://rwilson0687.github.io/SpaceInvaders/">Space Invaders</a></li>
+                        <li><a href="https://rwilson0687.github.io/Whack-A-Mole/">Whack-A-Mole</a></li>
+                    </ul>
+            </div>
+        </div>
+
+
+</div>
+
+<div id="gameButtons">
+<!-- Restart Button -->
+<button id="restart-button" onclick="refreshPage()">Restart</button>
+</div>
 
         <script src="RPS.js" charset="UTF-8"></script>
     </body>
